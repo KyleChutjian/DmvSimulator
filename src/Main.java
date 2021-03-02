@@ -9,12 +9,16 @@ public class Main {
         for (int i = number + 1; i < number + 201; i++) {
             System.out.println("Number " + i%201 + " is ready!");
         }
+
         int number2 = random.nextInt(100);
         if (number2 == 7) {
             System.out.println("Your number is ready! You actually have the right paperwork, goodbye!");
         } else {
-            System.out.println("Your number is ready! Unfortunately you don't have any of the right paperwork. Go home.");
+            System.out.println("Your number is ready! Unfortunately you don't have any of the right paperwork. Go home. HAHAHAHA!");
         }
+
+
+
 
 
     }
